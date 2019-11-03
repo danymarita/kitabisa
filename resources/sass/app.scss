@@ -1,0 +1,98 @@
+//
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+@import '~bootstrap-vue/src/index.scss';
+
+.navbar-main-top {
+    background-color: rgb(0, 174, 239) !important;
+}
+
+.navbar-light .navbar-toggler{
+    border-color: #ffffff;
+}
+
+.navbar-main-top > .navbar-brand > img {
+    width: 33px;
+    height: 33px;
+}
+
+.navbar-main-top > a, ul.navbar-nav > li.nav-item > a {
+    color: #ffffff !important;
+}
+
+ul.navbar-nav > li.nav-item > a.router-link-active {
+    text-decoration: underline;
+}
+
+.card {
+    background-color: #ffffff;
+    border: 1px solid rgba(0, 34, 51, 0.1);
+    box-shadow: 2px 4px 10px 0 rgba(0, 34, 51, 0.05), 2px 4px 10px 0 rgba(0, 34, 51, 0.05);
+    border-radius: 0px;
+}
+
+/* Tabs Card */
+
+.tab-card {
+  border:1px solid #eee;
+}
+
+.tab-card-header {
+  background-color: rgb(218, 51, 107);
+  color: #ffffff;
+  border-radius: 0px !important;
+}
+/* Default mode */
+.tab-card-header > .nav-tabs {
+  border: none;
+  margin: 0px;
+}
+.tab-card-header > .nav-tabs > li {
+  margin-right: 2px;
+}
+.tab-card-header > .nav-tabs > li > a {
+  border: 0;
+  border-bottom:2px solid transparent;
+  margin-right: 0;
+  color: #737373;
+  padding: 2px 15px;
+}
+
+.tab-card-header > .nav-tabs > li > a.show {
+    border-bottom:2px solid #007bff;
+    color: #007bff;
+}
+.tab-card-header > .nav-tabs > li > a:hover {
+    color: #007bff;
+}
+
+.tab-card-header > .tab-content {
+  padding-bottom: 0;
+}
+
+.input-output {
+    background-color: #fff;
+    padding: 8px 12px 8px 40px;
+    border-left: 4px solid #4CAF50;
+    margin-bottom: 10px;
+}
+
+.try-link {
+    background-color: rgb(218, 51, 107);
+    color: #ffffff;
+}
+
+.try-link:hover {
+    background-color: rgb(216, 15, 82);
+    color: #ffffff;
+}
+
+.btn, .form-control {
+    border-radius: 0px !important;
+}
